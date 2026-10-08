@@ -21,6 +21,10 @@ elif [[ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
   source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
+# ZSH Completions 
+autoload -Uz compinit
+compinit
+
 # FZF
 source <(fzf --zsh)
 bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
@@ -45,6 +49,9 @@ export OPENCODE_DISABLE_TERMINAL_TITLE=true
 
 # Claude Code
 export CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1
+
+# JJ Completions
+source <(COMPLETE=zsh jj)
 
 # Work Specific Tools
 if [[ "$ATELIER_TAGS" == *"work"* ]]; then

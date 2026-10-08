@@ -55,3 +55,10 @@ config/dot-claude/tasks
 config/dot-config/cockpit
 
 
+
+# Secrets and app state (never commit)
+config/dot-config/op
+config/dot-config/homelab
+config/dot-config/jean-server
+config/dot-config/tailscale
+config/dot-config/hunk

@@ -15,4 +15,3 @@ export BAT_THEME="Nord"
 
 # Terminal color settings
 export COLORTERM="truecolor"
-
