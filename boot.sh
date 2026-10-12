@@ -16,7 +16,7 @@ echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 echo "Cloning Atelier..."
 rm -rf ~/.local/share/atelier
-git clone https://github.com/jeremytondo/atelier.git ~/.local/share/atelier >/dev/null
+git clone https://github.com/jeremytondo/atelier-legacy.git ~/.local/share/atelier >/dev/null
 
 echo "Installation starting..."
 source ~/.local/share/atelier/install.sh

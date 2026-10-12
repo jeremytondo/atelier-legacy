@@ -13,7 +13,7 @@ I was inspired by [Omakub](https://github.com/basecamp/omakub) and essentially c
 Run the following script and then reboot.
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/jeremytondo/atelier/main/boot.sh | bash
+wget -qO- https://raw.githubusercontent.com/jeremytondo/atelier-legacy/main/boot.sh | bash
 ```
 
 ## Core Philosophy

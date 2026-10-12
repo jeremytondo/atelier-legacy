@@ -2,7 +2,7 @@
 set -e
 
 # This script runs as devuser
-REPO="https://github.com/jeremytondo/atelier.git"
+REPO="https://github.com/jeremytondo/atelier-legacy.git"
 CLONE_DIR="$HOME/.local/share/atelier"
 
 # This will be passed via ARG/ENV in the Dockerfile
